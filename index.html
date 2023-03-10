@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Юлия, резюме">
+    <meta name="description" content="Это сайт-резюме Юлии Анищенко">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Сайт-резюме Юлии Анищенко</title>
+</head>
+<body>
+    <div class="conteiner">
+    <div class="info">
+        <img src="./imgs/Avatarka.jpg" alt="Юлия Анищенко" class="avatar">
+        
+        <div class="info-text">
+            <h1>Юлия Анищенко</h1>
+    
+            <p>Я старший преподаватель кафедры <strong>информационных технологий и управления</strong> 
+                <strong>Ошского технологического университета,</strong> кандидат технических наук</p>
+            <p>Я люблю <em>изучать всё новое, читать и программировать</em></p>
+    
+            <h4>Список социальных сетей:</h4>
+
+            <a href="https://www.instagram.com/i_anishchenko/" target="_blank">Instagram</a>
+            |
+            <a href="https://t.me/Yuliya_Anishchenko" target="_blank">Telegram</a>
+        </div>
+    </div>
+    
+    <div class="card bg-green">
+        <h2>Мои хобби</h2>
+        <ul class="list">
+            <li>Путешествия</li>
+            <li>Чтение</li>
+            <li>Бассейн</li>
+        </ul>
+    </div>
+
+    <div class="card bg-orange">
+        <h2>Опыт работы</h2>
+        <table class="table">
+            <!-- <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>
+            </thead> -->
+            <tbody>
+                <tr>
+                    <td>ОшТУ</td>
+                    <td>Оператор ПК</td>
+                    <td>2006-2009</td>
+                </tr>
+                <tr>
+                    <td>ОшТУ</td>
+                    <td>Инженер-программист</td>
+                    <td>2009-2015</td>
+                </tr>
+                <tr>
+                    <td>ОшТУ</td>
+                    <td>Преподаватель</td>
+                    <td>2015-сейчас</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="card bg-violet">
+        <h2>Мои курсы</h2>
+  
+        <ul class="link-list">
+            <li>
+                <a href="/">HTML & CSS</a>
+            </li>
+            <li>
+                <a href="/">Все курсы</a>
+            </li>
+        </ul>
+      </div>
+        
+        <form action="/" class="form">
+        <h2>Связаться со мной</h2>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите имя">
+            </div>
+            <div class="form-group">
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" placeholder="Введите email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="message">Ваше сообщение:</label>
+            <textarea id="message" cols="25" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+        <input type="submit" value="Отправить!" class="btn">
+        </form>
+    </div>
+</body>
+</html>
